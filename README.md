@@ -20,7 +20,7 @@ This project is a TypeScript conversion of the original [SvelteKit Tailwind Blog
 git clone https://github.com/spoonpaw/ts-sveltekit-blog
 cd ts-sveltekit-blog
 npm install
-npm start
+npm run dev
 ```
 
 ## Usage
