@@ -1,38 +1,36 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# SvelteKit Tailwind TypeScript Blog Starter
 
-## Creating a project
+A TypeScript-converted, customizable blog starter for SvelteKit and Tailwind CSS.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## About
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+This project is a TypeScript conversion of the original [SvelteKit Tailwind Blog Starter](https://github.com/akiarostami/sveltekit-tailwind-blog-starter), combining SvelteKit's ease with TypeScript's robustness.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Features
 
-## Developing
+- TypeScript for improved developer experience and type safety
+- Easy customization with Tailwind CSS
+- Mobile-friendly, SEO-friendly, supports light and dark theme
+- Pre-rendering, OpenGraph Information, and more
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Installation
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone https://github.com/spoonpaw/ts-sveltekit-blog
+cd ts-sveltekit-blog
+npm install
+npm start
 ```
 
-## Building
+## Usage
 
-To create a production version of your app:
+Modify `tailwind.config.js`, `src/app.css`, and `src/lib/config.ts` for customization. Content is managed via Markdown in the `content` folder.
 
-```bash
-npm run build
-```
+## License
 
-You can preview the production build with `npm run preview`.
+[MIT License](https://github.com/spoonpaw/ts-sveltekit-blog/blob/master/LICENSE)
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+---
+
+GitHub: [spoonpaw](https://github.com/spoonpaw)
